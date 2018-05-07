@@ -12,6 +12,7 @@
 		DD6EA00020A02A6600653989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6E9FFE20A02A6600653989 /* LaunchScreen.storyboard */; };
 		DD6EA00B20A02A6600653989 /* AboutDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6EA00A20A02A6600653989 /* AboutDateTests.swift */; };
 		DD6EA01620A02A6700653989 /* AboutDateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6EA01520A02A6700653989 /* AboutDateUITests.swift */; };
+		DD6EA02520A02F0000653989 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6EA02420A02F0000653989 /* Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		DD6EA01120A02A6700653989 /* AboutDateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutDateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6EA01520A02A6700653989 /* AboutDateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDateUITests.swift; sourceTree = "<group>"; };
 		DD6EA01720A02A6700653989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6EA02420A02F0000653989 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		DD6EA02320A02AD900653989 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DD6EA02420A02F0000653989 /* Time.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6EA02520A02F0000653989 /* Time.swift in Sources */,
 				DD6E9FF620A02A6100653989 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
