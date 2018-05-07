@@ -11,8 +11,9 @@ Pod::Spec.new do |s|
   s.name         = "AboutDate"
   s.version      = "0.0.1"
   s.summary      = "A short description of AboutDate."
-  s.license      = "MIT (example)"
-  s.author             = { "Thanathip Kamnarai" => "feaw.book@gmail.com" }
+  s.homepage     = 'https://github.com/FeawBook'
+  s.license      = "MIT"
+  s.author       = { "Thanathip Kamnarai" => "feaw.book@gmail.com" }
   s.source       = { :git => "https://github.com/FeawBook/aboutDate.git", :tag => "#{s.version}" }
   s.source_files  = "AboutDate/**/*.{swift}"
   s.exclude_files = "AboutDate/**/*.{xcassets,storyboard,xib,xcdatamodeld,lproj}"
