@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.author             = { "Thanathip Kamnarai" => "feaw.book@gmail.com" }
   s.source       = { :git => "https://github.com/FeawBook/aboutDate.git", :tag => "#{s.version}" }
   s.source_files  = "AboutDate/**/*.{swift}"
-  s.exclude_files = "AboutDate/**/*.{xcassets,storyboard,xib,xcdatamodeld,lproj}"
+  s.exclude_files = ""
 
 end
